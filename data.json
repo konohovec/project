@@ -1,0 +1,1028 @@
+[{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+}, {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+}, {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+}, {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+}, {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+}, {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+}, {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "animals",
+        "model": "abstractanimal"
+    }
+}, {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "animals",
+        "model": "animal"
+    }
+}, {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "animals",
+        "model": "cat"
+    }
+}, {
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "animals",
+        "model": "dog"
+    }
+}, {
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "registry",
+        "model": "passport"
+    }
+}, {
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+        "app_label": "infopages",
+        "model": "mainpage"
+    }
+}, {
+    "model": "sessions.session",
+    "pk": "j39ehzviddhnz3i0r39xj6amza20gjdm",
+    "fields": {
+        "session_data": "NDFmNDA1MzYxYWE0NzljYTM4NGVlMzI0YTM0YWVkNjFmYjUwM2E3OTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI5YjQzOGJlNGNkZGY4ZjU3MTg2OGVmZWM3YmVjNDllMGVmYzExMTQ1In0=",
+        "expire_date": "2020-07-16T22:16:44.803Z"
+    }
+}, {
+    "model": "animals.abstractanimal",
+    "pk": "05665bb4-e583-4317-99f1-3026761ae5c1",
+    "fields": {
+        "species": "cat",
+        "breed": "",
+        "name": "Emma",
+        "passport": "86788497-9df6-443f-8db2-98db1f2ce258",
+        "age": 4,
+        "image": "photos/animal-1840495_960_720.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam ut porttitor leo a diam. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. Ante metus dictum at tempor commodo ullamcorper a lacus vestibulum. Sit amet mauris commodo quis imperdiet massa tincidunt nunc pulvinar. Quisque sagittis purus sit amet volutpat. Nunc faucibus a pellentesque sit amet porttitor. Nunc non blandit massa enim nec dui nunc mattis enim.",
+        "gender": "F"
+    }
+}, {
+    "model": "animals.abstractanimal",
+    "pk": "0fd1e9e2-33f6-42c3-9771-a3500c0964c9",
+    "fields": {
+        "species": "Parrot",
+        "breed": "",
+        "name": "Iago",
+        "passport": "7f4fd981-a7b2-464b-a5cc-8a0e4f5b318d",
+        "age": 20,
+        "image": "photos/rainbow-lorikeet-4772794_640.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam ut porttitor leo a diam. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. Ante metus dictum at tempor commodo ullamcorper a lacus vestibulum. Sit amet mauris commodo quis imperdiet massa tincidunt nunc pulvinar. Quisque sagittis purus sit amet volutpat. Nunc faucibus a pellentesque sit amet porttitor. Nunc non blandit massa enim nec dui nunc mattis enim.",
+        "gender": "M"
+    }
+}, {
+    "model": "animals.abstractanimal",
+    "pk": "13485022-0544-4d10-82d8-129536b4f5b8",
+    "fields": {
+        "species": "cat",
+        "breed": "",
+        "name": "Shadow",
+        "passport": "31853102-fa2b-4f37-81d6-eed376418172",
+        "age": 2,
+        "image": "photos/cat-2360863_640.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam ut porttitor leo a diam. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. Ante metus dictum at tempor commodo ullamcorper a lacus vestibulum. Sit amet mauris commodo quis imperdiet massa tincidunt nunc pulvinar. Quisque sagittis purus sit amet volutpat. Nunc faucibus a pellentesque sit amet porttitor. Nunc non blandit massa enim nec dui nunc mattis enim.",
+        "gender": "F"
+    }
+}, {
+    "model": "animals.abstractanimal",
+    "pk": "44077955-704e-4609-ad9f-f8dd417fff30",
+    "fields": {
+        "species": "dog",
+        "breed": "Chihuahua",
+        "name": "Bandit",
+        "passport": "467b23da-a116-4aec-9455-be2618609045",
+        "age": 4,
+        "image": "photos/chihuahua-2765389_640.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam ut porttitor leo a diam. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. Ante metus dictum at tempor commodo ullamcorper a lacus vestibulum. Sit amet mauris commodo quis imperdiet massa tincidunt nunc pulvinar. Quisque sagittis purus sit amet volutpat. Nunc faucibus a pellentesque sit amet porttitor. Nunc non blandit massa enim nec dui nunc mattis enim.",
+        "gender": "M"
+    }
+}, {
+    "model": "animals.abstractanimal",
+    "pk": "7419e17a-dbf8-4f8f-8540-b9469fd251f7",
+    "fields": {
+        "species": "cat",
+        "breed": "",
+        "name": "Leo",
+        "passport": "af97c790-720f-4431-b8d5-37a7f6be7f4d",
+        "age": 3,
+        "image": "photos/cat-1044750_960_720.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam ut porttitor leo a diam. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. Ante metus dictum at tempor commodo ullamcorper a lacus vestibulum. Sit amet mauris commodo quis imperdiet massa tincidunt nunc pulvinar. Quisque sagittis purus sit amet volutpat. Nunc faucibus a pellentesque sit amet porttitor. Nunc non blandit massa enim nec dui nunc mattis enim.",
+        "gender": "M"
+    }
+}, {
+    "model": "animals.abstractanimal",
+    "pk": "acaecc05-8ec6-482c-bfdc-8eec8ab5686b",
+    "fields": {
+        "species": "cat",
+        "breed": "Siamese",
+        "name": "Tessa",
+        "passport": "873e583a-d7db-45f3-a132-65d44d6478e7",
+        "age": 1,
+        "image": "photos/cat-882049_640.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam ut porttitor leo a diam. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. Ante metus dictum at tempor commodo ullamcorper a lacus vestibulum. Sit amet mauris commodo quis imperdiet massa tincidunt nunc pulvinar. Quisque sagittis purus sit amet volutpat. Nunc faucibus a pellentesque sit amet porttitor. Nunc non blandit massa enim nec dui nunc mattis enim.",
+        "gender": "F"
+    }
+}, {
+    "model": "animals.abstractanimal",
+    "pk": "b4b5ebe2-8163-46ff-8057-8872abc00775",
+    "fields": {
+        "species": "cat",
+        "breed": "Maine Coon",
+        "name": "Alto",
+        "passport": "80291eec-ba12-4ae5-8f87-9606553426bc",
+        "age": 2,
+        "image": "photos/78be34d2cd05b238bb70f54f0e16--fabric-maine-coon-cat-in-the-style-of-teddy-nature.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam ut porttitor leo a diam. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. Ante metus dictum at tempor commodo ullamcorper a lacus vestibulum. Sit amet mauris commodo quis imperdiet massa tincidunt nunc pulvinar. Quisque sagittis purus sit amet volutpat. Nunc faucibus a pellentesque sit amet porttitor. Nunc non blandit massa enim nec dui nunc mattis enim.",
+        "gender": "M"
+    }
+}, {
+    "model": "animals.abstractanimal",
+    "pk": "c3951a1f-2bd1-4d17-9d2f-b0885e684b24",
+    "fields": {
+        "species": "dog",
+        "breed": "Siberian Husky",
+        "name": "Buffy",
+        "passport": "ca34fddc-1294-49d7-82e2-a46dcfc155b9",
+        "age": 5,
+        "image": "photos/husky-2443664_640.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam ut porttitor leo a diam. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. Ante metus dictum at tempor commodo ullamcorper a lacus vestibulum. Sit amet mauris commodo quis imperdiet massa tincidunt nunc pulvinar. Quisque sagittis purus sit amet volutpat. Nunc faucibus a pellentesque sit amet porttitor. Nunc non blandit massa enim nec dui nunc mattis enim.",
+        "gender": "F"
+    }
+}, {
+    "model": "animals.abstractanimal",
+    "pk": "f9e04340-b928-47d3-a18e-4b26116e624b",
+    "fields": {
+        "species": "Python",
+        "breed": "",
+        "name": "Diego",
+        "passport": "9a157680-9c29-4e19-b2a6-a358ed8ca517",
+        "age": 14,
+        "image": "photos/oXRwpxI.jpeg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam ut porttitor leo a diam. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. Ante metus dictum at tempor commodo ullamcorper a lacus vestibulum. Sit amet mauris commodo quis imperdiet massa tincidunt nunc pulvinar. Quisque sagittis purus sit amet volutpat. Nunc faucibus a pellentesque sit amet porttitor. Nunc non blandit massa enim nec dui nunc mattis enim.",
+        "gender": "M"
+    }
+}, {
+    "model": "animals.animal",
+    "pk": "0fd1e9e2-33f6-42c3-9771-a3500c0964c9",
+    "fields": {}
+}, {
+    "model": "animals.animal",
+    "pk": "f9e04340-b928-47d3-a18e-4b26116e624b",
+    "fields": {}
+}, {
+    "model": "animals.cat",
+    "pk": "05665bb4-e583-4317-99f1-3026761ae5c1",
+    "fields": {
+        "litter_box": true,
+        "color": "black",
+        "fur": "L"
+    }
+}, {
+    "model": "animals.cat",
+    "pk": "13485022-0544-4d10-82d8-129536b4f5b8",
+    "fields": {
+        "litter_box": true,
+        "color": "striped",
+        "fur": "S"
+    }
+}, {
+    "model": "animals.cat",
+    "pk": "7419e17a-dbf8-4f8f-8540-b9469fd251f7",
+    "fields": {
+        "litter_box": true,
+        "color": "red",
+        "fur": "S"
+    }
+}, {
+    "model": "animals.cat",
+    "pk": "acaecc05-8ec6-482c-bfdc-8eec8ab5686b",
+    "fields": {
+        "litter_box": false,
+        "color": "ivory",
+        "fur": "S"
+    }
+}, {
+    "model": "animals.cat",
+    "pk": "b4b5ebe2-8163-46ff-8057-8872abc00775",
+    "fields": {
+        "litter_box": true,
+        "color": "grey",
+        "fur": "L"
+    }
+}, {
+    "model": "animals.dog",
+    "pk": "44077955-704e-4609-ad9f-f8dd417fff30",
+    "fields": {
+        "size": "S"
+    }
+}, {
+    "model": "animals.dog",
+    "pk": "c3951a1f-2bd1-4d17-9d2f-b0885e684b24",
+    "fields": {
+        "size": "M"
+    }
+}, {
+    "model": "registry.passport",
+    "pk": "31853102-fa2b-4f37-81d6-eed376418172",
+    "fields": {
+        "entered": "2020-07-03",
+        "vaccination": true,
+        "cage_num": "B01"
+    }
+}, {
+    "model": "registry.passport",
+    "pk": "467b23da-a116-4aec-9455-be2618609045",
+    "fields": {
+        "entered": "2020-07-02",
+        "vaccination": true,
+        "cage_num": "C01"
+    }
+}, {
+    "model": "registry.passport",
+    "pk": "7f4fd981-a7b2-464b-a5cc-8a0e4f5b318d",
+    "fields": {
+        "entered": "2020-07-02",
+        "vaccination": true,
+        "cage_num": "F04"
+    }
+}, {
+    "model": "registry.passport",
+    "pk": "80291eec-ba12-4ae5-8f87-9606553426bc",
+    "fields": {
+        "entered": "2020-07-28",
+        "vaccination": true,
+        "cage_num": "A02"
+    }
+}, {
+    "model": "registry.passport",
+    "pk": "86788497-9df6-443f-8db2-98db1f2ce258",
+    "fields": {
+        "entered": "2020-05-11",
+        "vaccination": true,
+        "cage_num": "A03"
+    }
+}, {
+    "model": "registry.passport",
+    "pk": "873e583a-d7db-45f3-a132-65d44d6478e7",
+    "fields": {
+        "entered": "2020-07-01",
+        "vaccination": true,
+        "cage_num": "B02"
+    }
+}, {
+    "model": "registry.passport",
+    "pk": "9a157680-9c29-4e19-b2a6-a358ed8ca517",
+    "fields": {
+        "entered": "2019-11-12",
+        "vaccination": false,
+        "cage_num": "D02"
+    }
+}, {
+    "model": "registry.passport",
+    "pk": "af97c790-720f-4431-b8d5-37a7f6be7f4d",
+    "fields": {
+        "entered": "2020-07-05",
+        "vaccination": true,
+        "cage_num": "A01"
+    }
+}, {
+    "model": "registry.passport",
+    "pk": "ca34fddc-1294-49d7-82e2-a46dcfc155b9",
+    "fields": {
+        "entered": "2020-07-02",
+        "vaccination": true,
+        "cage_num": "D01"
+    }
+}, {
+    "model": "infopages.mainpage",
+    "pk": 1,
+    "fields": {
+        "title": "Planning To Adopt A Pet?",
+        "page_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet nisl purus in mollis nunc sed. Faucibus scelerisque eleifend donec pretium vulputate sapien nec. Dolor sed viverra ipsum nunc aliquet. Posuere morbi leo urna molestie at elementum eu facilisis. Urna cursus eget nunc scelerisque. Cursus euismod quis viverra nibh cras pulvinar mattis. Urna et pharetra pharetra massa. Mattis enim ut tellus elementum. Orci nulla pellentesque dignissim enim sit amet. Tempor orci eu lobortis elementum nibh tellus molestie nunc non. Volutpat sed cras ornare arcu dui vivamus. Luctus accumsan tortor posuere ac. Iaculis eu non diam phasellus vestibulum lorem.",
+        "phone_number": "+12125552368",
+        "email": "email@gmail.com",
+        "location": "561 Beechwood Drive\r\nPittsburgh\r\nPennsylvania\r\nZip code 15212"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add abstract animal",
+        "content_type": 7,
+        "codename": "add_abstractanimal"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change abstract animal",
+        "content_type": 7,
+        "codename": "change_abstractanimal"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete abstract animal",
+        "content_type": 7,
+        "codename": "delete_abstractanimal"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view abstract animal",
+        "content_type": 7,
+        "codename": "view_abstractanimal"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add animal",
+        "content_type": 8,
+        "codename": "add_animal"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change animal",
+        "content_type": 8,
+        "codename": "change_animal"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete animal",
+        "content_type": 8,
+        "codename": "delete_animal"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view animal",
+        "content_type": 8,
+        "codename": "view_animal"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add cat",
+        "content_type": 9,
+        "codename": "add_cat"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change cat",
+        "content_type": 9,
+        "codename": "change_cat"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete cat",
+        "content_type": 9,
+        "codename": "delete_cat"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view cat",
+        "content_type": 9,
+        "codename": "view_cat"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add dog",
+        "content_type": 10,
+        "codename": "add_dog"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change dog",
+        "content_type": 10,
+        "codename": "change_dog"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete dog",
+        "content_type": 10,
+        "codename": "delete_dog"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view dog",
+        "content_type": 10,
+        "codename": "view_dog"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add passport",
+        "content_type": 11,
+        "codename": "add_passport"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change passport",
+        "content_type": 11,
+        "codename": "change_passport"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete passport",
+        "content_type": 11,
+        "codename": "delete_passport"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view passport",
+        "content_type": 11,
+        "codename": "view_passport"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+        "name": "Can add main page",
+        "content_type": 12,
+        "codename": "add_mainpage"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+        "name": "Can change main page",
+        "content_type": 12,
+        "codename": "change_mainpage"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+        "name": "Can delete main page",
+        "content_type": 12,
+        "codename": "delete_mainpage"
+    }
+}, {
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+        "name": "Can view main page",
+        "content_type": 12,
+        "codename": "view_mainpage"
+    }
+}, {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$180000$vmbM0rsAWtn9$JHdsqSMIA7v5/Irg/PklWNARl212Voh9Fl6J11Pp2hY=",
+        "last_login": "2020-07-02T22:16:44.702Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2020-07-02T22:16:29.342Z",
+        "groups": [],
+        "user_permissions": []
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2020-07-02T22:23:03.719Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "2e2adbf0-50ee-47c1-b7b7-fa1478635932",
+        "object_repr": "blank",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2020-07-02T22:23:18.205Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "6f55befd-97cf-432a-9140-f87591d6574f",
+        "object_repr": "cat 111",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2020-07-02T22:30:55.150Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "6f55befd-97cf-432a-9140-f87591d6574f",
+        "object_repr": "cat 111",
+        "action_flag": 3,
+        "change_message": ""
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2020-07-02T22:31:56.907Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "MainPage object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2020-07-02T22:33:21.794Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "af97c790-720f-4431-b8d5-37a7f6be7f4d",
+        "object_repr": "blank",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2020-07-02T22:34:08.746Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "7419e17a-dbf8-4f8f-8540-b9469fd251f7",
+        "object_repr": "cat Leo",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2020-07-02T22:34:27.698Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "2e2adbf0-50ee-47c1-b7b7-fa1478635932",
+        "object_repr": "blank",
+        "action_flag": 3,
+        "change_message": ""
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2020-07-02T22:37:46.533Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "80291eec-ba12-4ae5-8f87-9606553426bc",
+        "object_repr": "blank",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2020-07-02T22:38:10.217Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "b4b5ebe2-8163-46ff-8057-8872abc00775",
+        "object_repr": "cat Alto",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2020-07-02T22:38:48.714Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "86788497-9df6-443f-8db2-98db1f2ce258",
+        "object_repr": "blank",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2020-07-02T22:39:34.085Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "05665bb4-e583-4317-99f1-3026761ae5c1",
+        "object_repr": "cat Emma",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2020-07-02T22:40:02.403Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "31853102-fa2b-4f37-81d6-eed376418172",
+        "object_repr": "blank",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2020-07-02T22:40:45.581Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "13485022-0544-4d10-82d8-129536b4f5b8",
+        "object_repr": "cat Shadow",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2020-07-02T22:41:23.128Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "873e583a-d7db-45f3-a132-65d44d6478e7",
+        "object_repr": "blank",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2020-07-02T22:42:01.083Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "acaecc05-8ec6-482c-bfdc-8eec8ab5686b",
+        "object_repr": "cat Tessa",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2020-07-02T22:43:11.026Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "467b23da-a116-4aec-9455-be2618609045",
+        "object_repr": "blank",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2020-07-02T22:43:35.497Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "44077955-704e-4609-ad9f-f8dd417fff30",
+        "object_repr": "dog Bandit",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2020-07-02T22:44:42.179Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "ca34fddc-1294-49d7-82e2-a46dcfc155b9",
+        "object_repr": "blank",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2020-07-02T22:44:47.938Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "c3951a1f-2bd1-4d17-9d2f-b0885e684b24",
+        "object_repr": "dog Buffy",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2020-07-02T22:46:25.400Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "9a157680-9c29-4e19-b2a6-a358ed8ca517",
+        "object_repr": "blank",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2020-07-02T22:46:40.225Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "f9e04340-b928-47d3-a18e-4b26116e624b",
+        "object_repr": "Python Diego",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2020-07-02T22:47:47.874Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "7f4fd981-a7b2-464b-a5cc-8a0e4f5b318d",
+        "object_repr": "blank",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}, {
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2020-07-02T22:47:57.768Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "0fd1e9e2-33f6-42c3-9771-a3500c0964c9",
+        "object_repr": "Parrot Iago",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}]

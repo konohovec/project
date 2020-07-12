@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block cssImport %}
+<link rel="stylesheet" href="{% static 'CSS/animal_card.css' %}">
+{% endblock %}
+
+{% block title %}
+<title>Petsy — Others</title>
+{% endblock %}
+
+{% block content %}
+{% for threeAnimals in object_list %}
+{% if threeAnimals|length == 0 %}
+<p class="text-center">No Data</p>
+{% else %}
+<div class="row">
+    {% for animal in threeAnimals %}
+    <div class="col-lg-4">
+        <div class="animal-card">
+            <div class="row">
+                <div class="col-sm-6">
+                    <img class="animal-card-photo" src="{{ animal.image.url }}" alt="">
+                    <div class="name-wrapper">
+                        <p class="text-center font-italic">{{ animal.name }}</p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="info">
+                        {% if animal.breed %}
+                        <p><span class="font-weight-bold">Breed:</span> {{ animal.breed }}</p>
+                        {% else %}
+                        <p><span class="font-weight-bold">Breed:</span> unknown</p>
+                        {% endif %}
+
+                        {% if animal.age %}
+                        <p><span class="font-weight-bold">Age:</span> {{ animal.age }}</p>
+                        {% else %}
+                        <p><span class="font-weight-bold">Age:</span> unknown</p>
+                        {% endif %}
+
+                        <p><span class="font-weight-bold">Gender:</span> {{ animal.gender }}</p>
+                        <p><span class="font-weight-bold">Color:</span> {{ animal.color }}</p>
+
+                        <p><span class="font-weight-bold">Vaccination:</span> {{ animal.passport.vaccination|yesno:"Yes,No" }}</p>
+
+                        <a class="details-link" href="../animal/{{ animal.pk }}">details >>></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endif %}
+{% endfor %}
+{% endblock %}

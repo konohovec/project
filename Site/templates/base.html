@@ -1,0 +1,55 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'CSS/main.css' %}">
+    <link rel="shortcut icon" type="image/png" href="{% static 'IMG/favicon.ico' %}" />
+    {% block cssImport %}
+    {% endblock %}
+
+    {% block title %}
+    {% endblock %}
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-fixed-top fixed-top">
+        <div class="container">
+            <a class="navbar-brand logo" href="#">Petsy</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item {{ HomeActive }}">
+                        <a class="nav-link" href="/index/">Home</a>
+                    </li>
+                    <li class="nav-item {{ CatsActive }}">
+                        <a class="nav-link" href="/cats/">Cats</a>
+                    </li>
+                    <li class="nav-item {{ DogsActive }}">
+                        <a class="nav-link" href="/dogs/">Dogs</a>
+                    </li>
+                    <li class="nav-item {{ OthersActive }}">
+                        <a class="nav-link" href="/others/">Others</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+    <div class="container page-content">
+        {% block content %}
+        {% endblock %}
+    </div>
+
+    <script src="{% static 'vendor/jquery-3.5.1.min.js' %}"></script>
+    <script src="{% static   'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+</body>
+
+</html>

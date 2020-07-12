@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block cssImport %}
+<link rel="stylesheet" href="{% static 'CSS/index.css' %}">
+{% endblock %}
+
+{% block title %}
+<title>Petsy — Main</title>
+{% endblock %}
+
+{% block content %}
+<div class="rov">
+    <div class="col">
+        <h1 class="text-center">{{ content.title }}</h1>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-12">
+        <img class="main-img mt-4" src="{% static 'IMG/friends.jpg' %}" alt="pets">
+    </div>
+</div>
+
+{% endblock %}

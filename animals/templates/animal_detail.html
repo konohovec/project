@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block cssImport %}
+<link rel="stylesheet" href="{% static 'CSS/animal_detail.css' %}">
+{% endblock %}
+
+{% block title %}
+<title>Petsy — {{ Animal }}</title>
+{% endblock %}
+
+{% block content %}
+<div class="content-wrapper">
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="text-center">
+                <img class="detail-photo float-center" src="{{ animal.image.url }}" alt="">
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="d-flex-nowrap p-5">
+                <h1 class="text-center">{{ animal.species }} {{ animal.name }}</h1>
+                <div class="">
+                    {{ animal.description }}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-4">
+        <div class="col text-center info-line">
+            {% if animal.breed %}
+            <p><span class="font-weight-bold">Breed:</span> {{ animal.breed }}
+                {% else %}
+                <span class="font-weight-bold">Breed:</span> unknown<b>/</b>
+                {% endif %}
+                {% if animal.age %}
+                <span class="font-weight-bold">Age:</span> {{ animal.age }}
+                {% else %}
+                <span class="font-weight-bold">Age:</span> unknown
+                {% endif %}<b>/</b>
+                <span class="font-weight-bold">Gender:</span> {{ animal.gender }}<b>/</b>
+                <span class="font-weight-bold">Vaccination:</span> {{ animal.passport.vaccination|yesno:"Yes,No" }}
+            </p>
+        </div>
+    </div>
+</div>
+{% endblock %}
